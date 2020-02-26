@@ -1,5 +1,6 @@
 # Linear and Stochastic versions of the Min Cost Multi-Commodity Flow (MMCF) Problem
 In the Multi-Commodity Network Flow Problem problem, a directed graph G(N,A), where N a set of nodes is and A is a set of Arcs is given. A set of K commodities has to be routed on G at minimal total cost while satisfying the usual flow-conservation constraints at the nodes.\
+See <a href="https://pdfs.semanticscholar.org/323c/677ecd384400f61f2413037ffc059c104454.pdf?_ga=2.170406693.449649409.1582741132-1884108465.1582741132">Symmetric and Asymmetric Parallelization of a Cost-Decomposition Algorithm for Multicommodity Flow Problems </a> for details\
 <strong>Parameters</strong>
 <ul>
   <li><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{k}" title="x_{ij}^{k}" />: 	cost of assigning commodity k to arc ij</li>
