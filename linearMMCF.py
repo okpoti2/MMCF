@@ -26,7 +26,7 @@
 from docplex.mp.model import Model
 import sys
 
-problemName = '64-4-1'
+problemName = 'input/64-4-1'
 nodeFile = problemName+'.nod'
 arcFile = problemName+'.arc'
 mutFile = problemName+'.mut'
