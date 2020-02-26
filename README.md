@@ -1,4 +1,4 @@
-# MMCF
+# Linear and Stochastic versions of the Min Cost Multi-Commodity Flow (MMCF) Problem
 In the Multi-Commodity Network Flow Problem problem, a directed graph G(N,A), where N a set of nodes is and A is a set of Arcs is given. A set of K commodities has to be routed on G at minimal total cost while satisfying the usual flow-conservation constraints at the nodes.\
 <strong>Parameters</strong>
 <ul>
@@ -11,8 +11,7 @@ Decision variable
  <li><img src="https://latex.codecogs.com/gif.latex?x_{ij}^{k}" title="x_{ij}^{k}" /> flow of commodity k on arc ij</li>
 </ul>
 
-Equation (1) defines the objective function and equation (2) is the flow-conservation constraint. Equations (3) and (4) are respectively the individual and mutual capacity constraints.
 
-Stochastic Multi-commodity network flow problem (Stochastic-MMCF).
+<strong>Stochastic Multi-commodity network flow problem (Stochastic-MMCF)</strong>\
 The popular Sample Average Approximation method is used to solve the stochastic MMCF. Also instances from the OR-library of min cost multi-commodity problems is used for comparison purposes.
 
