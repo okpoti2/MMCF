@@ -1,6 +1,6 @@
 # Author: Hanyang MSL Lab, Industrial Engineering
 #
-# Copyright (c) 2019 Prof. Jeong In-Jae
+# Copyright (c) 2019
 #
 # MIT License
 #
