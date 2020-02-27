@@ -7,7 +7,7 @@ global inputParam arcId origin destination commodity cost indCapacity mutCapPoin
 % Number of commodities
 % Number of unique arcs
 % Number of mutually capacitated arcs
-[inputParam] = dlmread('instances/64-4-1.nod');
+[inputParam] = dlmread('input/64-4-1.nod');
 
 %read the .arc file
 % format is as follows
