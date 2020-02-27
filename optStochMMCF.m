@@ -1,11 +1,11 @@
 %=======================================================================|
 %Evans Sowah Okpoti, Hanyang University Copyright                       |
-%Copyright ©Hanyang University, Industrial Engineering. 2017-2030       |
+%Copyright ¬©Hanyang University, Industrial Engineering. 2017-2030       |
 %Hanyang University (HY-IE) retains copyrights to this material.        |
 %                                                                       |
 %Permission to reproduce this document and to prepare derivative works  |
 %from this document for internal use is granted, provided the copyright |
-%and ìNo Warrantyî  statements are included with all reproductions       |
+%and ‚ÄúNo Warranty‚Äù  statements are included with all reproductions       |
 %and derivative works.                                                  |
 %                                                                       |
 %For information regarding external or commercial use of copyrighted    |
@@ -22,7 +22,7 @@ global inputParam arcId origin destination commodity cost indCapacity mutCapPoin
 % Number of commodities
 % Number of unique arcs
 % Number of mutually capacitated arcs
-[inputParam] = dlmread('instances/64-4-1.nod');
+[inputParam] = dlmread('input/64-4-1.nod');
 
 %read the .arc file
 % format is as follows
@@ -33,12 +33,12 @@ global inputParam arcId origin destination commodity cost indCapacity mutCapPoin
 %read the .mut file
 % format is as follows
 % pointer  mutual-capacity
-[pointer, capacity] = textread('instances/64-4-1.mut','%d	%d', -1);
+[pointer, capacity] = textread('input/64-4-1.mut','%d	%d', -1);
 
 %read the .sup file
 %format is as follows
 % node commodity supply
-[node_sup, commodity_sup,supply] = textread('instances/64-4-1.sup','%d	%d	%d', -1);
+[node_sup, commodity_sup,supply] = textread('input/64-4-1.sup','%d	%d	%d', -1);
 
 
 
