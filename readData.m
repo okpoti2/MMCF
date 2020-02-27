@@ -18,12 +18,12 @@ global inputParam arcId origin destination commodity cost indCapacity mutCapPoin
 %read the .mut file
 % format is as follows
 % pointer  mutual-capacity
-[pointer, capacity] = textread('instances/64-4-1.mut','%d	%d', -1);
+[pointer, capacity] = textread('input/64-4-1.mut','%d	%d', -1);
 
 %read the .sup file
 %format is as follows
 % node commodity supply
-[node_sup, commodity_sup,supply] = textread('instances/64-4-1.sup','%d	%d	%d', -1);
+[node_sup, commodity_sup,supply] = textread('input/64-4-1.sup','%d	%d	%d', -1);
 
 %Scenario data
 numOfScenarios = 50;
